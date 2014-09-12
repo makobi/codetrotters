@@ -1,0 +1,215 @@
+body{
+
+	padding: 0px;
+	margin: 0;
+}
+
+.hidden, .hidden1, .hidden2{
+
+	display: none;
+}
+
+.header{
+
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
+
+.header-text{
+
+	font-family: ProximaNova-Light, Helvetica-Light, arial, serif;
+	font-size: 36px;
+	color: white;
+}
+
+.header-subtext{
+
+	font-family: ProximaNova-Light, Helvetica-Light, arial, serif;
+	font-size: 18px;
+	color: white;
+}
+
+.container{
+
+	width: 700px;
+	margin-right: auto;
+	margin-left:auto;
+	height: auto;
+}
+
+.header-content{
+
+	padding-top: 0px;
+}
+
+.sponsors{
+
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+.sponsors table{
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.apply{
+
+	background-image: url('apply.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.apply1{
+
+	position:absolute; 
+	top: 0px;
+	left: 0;
+	right: 0;
+}
+
+.apply1 td > div > p{
+
+	color: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
+	font-family: ProximaNova-Light, Helvetica-Light, arial, serif;
+	padding-top: 20px;
+}
+
+.effect{
+
+	z-index: -100;
+}
+
+.callto{
+
+	background-color: #4A4A4A;
+	opacity: .6;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.callto1{
+
+	background-color: #4A4A4A;
+	opacity: .6;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.callto2{
+
+	background-color: #4A4A4A;
+	opacity: .6;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.about{
+
+	width: 100%;
+	font-family: ProximaNova-Light, Helvetica-Light, arial, serif;
+	text-align: center;
+	margin-top: 140px;
+	margin-bottom: 140px;
+}
+
+.about table{
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-header{
+
+	font-size: 18px;
+	font-family: ProximaNova-Regular, Helvetica-Regular, arial, serif;
+	text-align: center;
+}
+
+.about-content{
+
+	font-size: 18px;
+	line-height: 25px;
+	text-align: justify;
+}
+
+.startup-exp{
+
+	background-image: url('vineet.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.talent-exp{
+
+	background-image: url('chris.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.volunteer-exp{
+
+	background-image: url('yamilface.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.exp-footer, .exp-footer1, .exp-footer2{
+	text-align: center;
+	background-color: gray;
+	margin: 0px;
+	padding: 10px;
+	opacity: .6;
+	height: 20px;
+}
+
+.experience1{
+
+	position: absolute;
+	top:0px;
+	left: 0;
+	right: 0;
+}
+
+.experience1 td > p{
+	color: white;
+	font-family: ProximaNova-Light, Helvetica-Light, arial, serif;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: -1px;
+}
+
+.test{
+
+	opacity: 1;
+}
+
+.tag{
+
+	 position: absolute; 
+	 bottom: -20px;
+	 left: 10%;
+}
+
+
+.tag1 {
+
+	 position: absolute; 
+	 bottom: -20px;
+	 left: 43%;
+}
+
+.tag2 {
+
+	 position: absolute; 
+	 bottom: -20px;
+	 left: 77%;
+}

@@ -1,0 +1,53 @@
+/*! swish-js - v1.1.0 - 2014-08-25
+* https://github.com/jordanranson/css-swish
+* Copyright (c) 2014 Jordan Ranson; Licensed under the Apache2 license */
+.swish-fade {
+    -webkit-transition: opacity 1s ease-in-out;
+            transition: opacity 1s ease-in-out;
+}
+.swish-fade.in {
+    opacity: 1;
+}
+.swish-fade.out {
+    opacity: 0;
+}
+
+/* Slide */
+.swish-slide {
+    -webkit-transition: margin 1s ease-in-out;
+            transition: margin 1s ease-in-out;
+}
+.swish-slide.in {
+    margin-left: 0;
+}
+.swish-slide.out {
+    margin-left: -100%;
+}
+
+/* Zoom */
+.swish-zoom {
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+            transition: transform 1s ease-in-out;
+}
+.swish-zoom.in {
+    -webkit-transform: scale(1,1);
+            transform: scale(1,1);
+}
+.swish-zoom.out {
+    -webkit-transform: scale(0,0);
+            transform: scale(0,0);
+}
+
+/* 3D Rotate */
+.swish-3d-rotate {
+    -webkit-transition: -webkit-transform 1s ease-in-out;
+            transition: transform 1s ease-in-out;
+}
+.swish-3d-rotate.in {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+}
+.swish-3d-rotate.out {
+    -webkit-transform: rotateY(-90deg);
+            transform: rotateY(-90deg);
+}
